@@ -1,0 +1,668 @@
+/* FONT */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BODY - remover barra scrool*/
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+body{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+  
+/*SECTIONS */
+.section-black{
+    background-color: #1D1E1B;
+    color: white;
+    text-align: center;
+    padding: 24px 0;
+}
+
+/* TÍTULOS */
+/* BOLD */
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* SEMIBOLD */
+h2{
+    font-size: 2.5rem;
+    font-weight: 600; 
+}
+
+/* BOLD */
+h3{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+/* REGULAR */
+h4{
+    font-size: 1.40rem;
+    font-weight: 450;
+}
+
+/* REGULAR */
+h6{
+    font-size: 0.75rem;
+    font-weight: 250;
+}
+
+.h-white{
+    color: white;
+}
+
+.h-black{
+    color: #1D1E1B;
+}
+
+/* FONT CONTACTS */
+.h-black-hover{
+    color: #1D1E1B;
+}
+
+.h-black-hover:hover{
+    color:#00A099;
+}
+
+
+/* START SPACING | PADDING ---------------------------------------------------------*/
+/* HOME PAGE | ABOUT | PROJECTS | CONTACTS */
+.spacing-top-bottom{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.spacing-top-bottom-uiux{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* HOME PAGE | CONTACTS */
+.spacing-top-bottom-get-touch{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* HOME PAGE | ABOUT | PROJECTS */
+.spacing-top{
+    padding-top: 80px;
+}
+
+.spacing-top-graphic{
+    padding-top: 60px;
+}
+
+/* HOME PAGE  */
+.spacing-top-mobile{
+    padding-top: 40px;
+}
+
+/* HOME PAGE | ABOUT  */
+.spacing-bottom-mobile{
+    padding-bottom: 40px;
+}
+
+/* ABOUT */
+.spacing-left-right{
+    padding-left: 80px;
+}
+
+/* MARGIN */
+/* HOME PAGE | ABOUT | CONTACTS */
+.sapcing-button{
+    margin-top: 40px;
+}
+
+/* PROJECTS */
+.sapcing-button-projects{
+    margin-top: 48px;
+}
+
+.sapcing-button-projects-graphic{
+    margin-top: 53px;
+}
+
+/* HOME PAGE | PROJECTS */
+.spacing-margin-bottom{
+    margin-bottom: 80px;
+}
+
+.spacing-margin-bottom-graphic{
+    margin-bottom: 60px;
+}
+
+/* HOME PAGE | PROJECTS */
+.spacing-margin-bottom-mobile{
+    margin-bottom: 0px;
+}
+/* END SPACING | PADDING ---------------------------------------------------------*/
+
+/* BOTÕES */
+.button-white{
+    background-color: white;
+    color: #1D1E1B;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 210px;
+    padding: 8px 12px 8px 12px;
+}
+
+.button-white:hover{
+    background-color: #1D1E1B;
+    color: white;
+}
+
+.button-blue{
+    background-color: #00A099;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 210px;
+    padding: 8px 12px 8px 12px; 
+}
+
+.button-blue:hover {
+    background-color: #1D1E1B;
+    color: white;
+}
+
+.button-blue-downloadcv{
+    float: left;
+    margin-right: 10%;
+}
+
+/* IMAGES */
+.img-full{
+    width: 100%; 
+    height: 100%;
+}
+
+.img-about{
+    width: 330px;
+}
+
+.image-projects{
+    width: 356px;
+}
+
+/* LOGO */
+.navbar{
+    background-color: #00A099;
+}
+
+.logo-mia{
+    width: 120px;
+    margin-right: auto;
+}
+
+/* MENU MOBILE - BOTÃO */
+.navbar-toggler{
+    background-color: #00A099;
+    border: none;
+    padding-right: 0px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler.collapsed{
+    padding-right: 0px;
+}
+
+/* MENU */
+.navbar-nav .nav-item{
+    padding: 0 15px;
+}
+
+.navbar-nav h5{
+    margin: 0;
+    color: #1D1E1B;
+}
+
+.nav-link{
+    color: #1D1E1B;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link h5:hover{
+    color: white;
+}
+
+.select-menu h5{
+    color: white;
+}
+
+/* ICONS */
+.d-inline-block{
+    display: inline-block;
+}
+
+.nav-icons{
+    font-size: 1.4rem;
+    color: #1D1E1B;
+}
+
+.nav-icons:hover{
+    color:white;
+}
+
+
+.nav-icons-contacts{
+    color:#1D1E1B;
+    font-size: 1.7rem !important;
+}
+
+.nav-icons-contacts:hover{
+    color:#00A099;
+}
+
+/* START HOME PAGE ----------------------------------------------------- */
+/* ABOUT */
+.container-about{
+    background-color: #00A099;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+/* CONTACTS */
+.container-background{
+    position: relative;
+    text-align: center;
+    color: #1D1E1B;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+/* GET IN TOUCH */
+.label{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1D1E1B;
+}
+
+input[type=text], input[type=email], input[type=phone], input[type=subject] .select, textarea{
+    font-size: 0.9rem;
+    background-color:#00A099;
+    border: 1px solid #00A099;
+    border-radius: 8px;
+    padding: 4px;
+    width: 400px;
+}
+
+textarea{
+    width: 400px !important;
+    margin: 0 !important;
+    font-size: 0.9rem !important;
+}
+
+::placeholder{
+    color: white;
+}
+
+input[type=submit]{
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: #00A099;
+    color: white;
+    border: 1px solid #00A099;
+    border-radius: 30px;
+    padding: 8px 12px 8px 12px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #00A099;
+}
+
+.icon-size{
+    font-size: 28px;
+}
+
+.text-copyright{
+    background-color: #1D1E1B;
+    color: white;
+    padding: 15px;
+}
+
+/* END HOME PAGE -----------------------------------------------------*/
+
+/* ABOUT PAGE */
+.about-page{
+    justify-content: right;
+}
+
+/* DESKTOP- ECRÃ */
+@media only screen and (min-width: 600px){
+    .navbar-nav .nav-item h5{
+        padding: 15px 0; 
+    }
+
+    .mobile-css{
+        display: none;
+    }
+}
+
+/* MOBILE- ECRÃ */
+@media only screen and (max-width: 600px){
+    /* TÍTULOS */
+    h1{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1.4rem;
+    }
+    
+    h4{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    h6{
+        font-size: 0.70rem;
+        font-weight: 400;
+    }
+
+    .container{
+        padding-left: 17px !important;
+        padding-right: 17px !important;
+    }
+
+    /* MENU */
+    .nav-link h5{
+        font-size: 0.9rem;
+    }
+
+    /* ICONS */
+    .nav-icons{
+        font-size: 1rem;
+    }
+
+    .icon-size{
+        font-size: 20px;
+    }
+
+    .nav-icons-contacts{
+        font-size: 1.3rem !important;
+    }
+
+    /* IMAGENS */
+    .logo-mia{
+        width: 100px;
+    }
+    
+    .image-projects-mobile{
+        /* width: 345px; */
+        height: 100%;
+    }
+
+    .image-projects{
+        height: 100% !important;
+    }
+
+    /* HOME PAGE */
+    .pc-css{
+        display: none;
+    }
+
+    /* ABOUT PAGE */
+    .text-center-about{
+        text-align: center;
+    }
+
+    .justify-about{
+        align-content: center;
+        text-align: center;
+    }
+
+    .container-about .row{
+        flex-direction: column;
+    }
+
+    .container-about{
+        background-color: #00A099;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-about-mobile{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .about-page{
+        justify-content: center;
+    }
+
+    /* SPACING */
+    .spacing-top-bottom-get-touch{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sapcing-button-projects{
+        margin-top: 20px;
+    }
+
+    .spacing-bottom-mobile{
+        padding-bottom: 24px;
+    }
+
+    .spacing-bottom-mobile-about{
+        padding-top: 24px;
+    }
+
+    .spacing-left-right{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .spacing-top-bottom{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .spacing-top{
+        padding-top: 40px;
+    }
+
+    .spacing-top-about-mobile{
+        padding-top: 20px;
+    }
+
+    .sapcing-button{
+        margin-top: 20px;
+    }
+
+    .spacing-margin-bottom{
+        margin-bottom: 40px;
+    }
+
+    .spacing-margin-bottom-mobile{
+        margin-bottom: 40px;
+    }
+
+    .sapcing-button-projects-graphic{
+        margin-top: 20px;
+    }
+
+    /* BOTÃO */
+    .button-blue-downloadcv{
+        float:none;
+        margin-right: 0%;
+    }
+
+    .button-white{
+        font-size: 0.8rem;
+        width: 190px;
+    }
+
+    .button-blue{
+        font-size: 0.8rem;
+        width: 190px;
+    }
+
+    /* GET IN TOUCH */
+    .label{
+        font-size: 0.95rem;
+    }
+
+    input[type=submit]{
+        font-size: 0.8rem;
+    }
+
+    input[type=text], input[type=email], input[type=phone], input[type=subject] .select, textarea{
+        padding: 8px;
+        width: 335px;
+    }
+
+    textarea{
+        width: 335px !important;
+    }
+
+    /* FOOTER */
+    .footer-logo{
+        width: 20px;
+    }  
+}
+
+/*  START INTRO PAGE -------------------------------------------*/
+.intro-video {
+   width:80%;
+   display:block;
+   margin:auto; 
+}
+
+#buttonContainer{
+    display: none;
+    position:relative;
+    z-index:1000;
+    margin-top:-40px;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width:600px){
+    .intro-video {
+        width:100%;
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: -3px;
+    }
+
+    #buttonContainer{
+        position: absolute;         /* O botão ficará posicionado de forma absoluta */
+        bottom: 320px;               /* Fica 20px acima da parte inferior da tela */
+        left: 50%;
+        transform: translateX(-50%); /* Centraliza horizontalmente */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;                /* Ocupa toda a largura da tela */
+        z-index: 1000;  
+    }
+}
+
+/* END INTRO PAGE -------------------------------------------*/
+
+/*  START PROJECTS PAGE -------------------------------------------*/
+.carrossel-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Alinha os carrosséis no centro */
+    align-items: center;
+}
+
+.carrossel{
+    position: relative;
+    overflow: hidden;
+}
+
+.carrossel-imagens{
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+.carrossel-imagens img{
+    width: 100%;
+    height: auto;
+}
+
+.seta{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.seta-esquerda{
+    left: -5px;
+    color:#1D1E1B;
+}
+
+.seta-direita{
+    right: -5px;
+    color:#1D1E1B;
+}
+
+/* Responsividade para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .carrossel-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*  END PROJECTS PAGE -------------------------------------------*/
+
+button, button.material-icons{
+    background: none;
+    border: 0px;
+    color: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0px;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
